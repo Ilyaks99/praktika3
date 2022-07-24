@@ -5,6 +5,11 @@
   line-height: 22px;
   margin-top: 12px;
   margin-bottom: 0;
+  transition: opacity 1s;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 400px) {

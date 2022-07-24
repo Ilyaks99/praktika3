@@ -1,0 +1,29 @@
+.content__intro {
+    padding-top: 92px ;
+    padding-left: 148px;
+    padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .intro {
+      padding-left: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .intro {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 88px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .intro {
+      padding-top: 64px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  

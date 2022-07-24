@@ -3,10 +3,18 @@
   margin-top: 33px;
   margin-bottom: 0;
   padding-left: 0;
+  width: 690px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .intro__list{
+    width: 720px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .intro__list {
-    margin-top: 34px;
+    width: 288px;
   }
 }
