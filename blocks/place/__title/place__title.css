@@ -1,6 +1,7 @@
 .place__title {
   color: #fff;
-  font-family: "Inter-black";
+  font-family: "Inter";
+  font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   margin-top: 0;
