@@ -2,33 +2,34 @@
   color: #fff;
   font-family: "Inter";
   font-weight: 900;
-  margin-top: 245px;
+  margin-top: 0;
   margin-bottom: 0;
+  padding-top: 245px;
   font-size: 72px;
   line-height: 76px;
   white-space: pre-line;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
   .cover__title {
-    margin-top: 195px;
-  font-size: 72px;
-  line-height: 76px;
+    font-size: 72px;
+    line-height: 76px;
+    padding-top: 195px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .cover__title {
-    margin-top: 115px;
     font-size: 72px;
     line-height: 76px;
+    padding-top: 115px;
     }
 }
 
 @media screen and (max-width: 400px) {
   .cover__title {
-    margin-top: 33px;
     font-size: 32px;
     line-height: 35px;
+    padding-top: 33px;
     }
 }

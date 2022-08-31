@@ -3,7 +3,7 @@
   padding: 56px 148px 0;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
     .content__lead {
       padding:48px 48px 0;
     }
