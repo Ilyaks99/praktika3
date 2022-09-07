@@ -1,22 +1,22 @@
 .content__lead {
   width: 100%;
-  padding: 56px 148px 0;
+  padding: 62px 148px 0;
 }
 
 @media screen and (max-width: 1200px) {
-    .content__lead {
-      padding:48px 48px 0;
-    }
+  .content__lead {
+    padding: 54px 48px 0;
   }
-  
-  @media screen and (max-width: 800px) {
-    .content__lead {
-      padding:48px 0 0;
-    }
+}
+
+@media screen and (max-width: 800px) {
+  .content__lead {
+    padding: 54px 0 0;
   }
-  
-  @media screen and (max-width: 400px) {
-    .content__lead {
-      padding:48px 2px 0;
-    }
+}
+
+@media screen and (max-width: 400px) {
+  .content__lead {
+    padding: 48px 2px 0;
   }
+}
