@@ -1,14 +1,14 @@
 .place__text {
     margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.place__text:last-child {
     margin-bottom: 0;
 }
 
-.place__text:nth-child(2) {
-    margin-top: 26px;
-}
-
 @media screen and (max-width: 800px) {
-    .place__text:nth-child(2) {
-        margin-top: 25px;
+    .place__text {
+        margin-bottom: 25px;
     }
 }
